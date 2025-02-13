@@ -1,0 +1,42 @@
+Логи ошибки  G9-1234
+2025-02-05 19:26:03.191  2389-2389  ImeBackDispatcher       com.example.shop_list                E  Ime callback not found. Ignoring unregisterReceivedCallback. callbackId: 249864850
+2025-02-05 19:26:12.872  2389-2389  ImeBackDispatcher       com.example.shop_list                E  Ime callback not found. Ignoring unregisterReceivedCallback. callbackId: 249864850
+2025-02-05 19:26:21.914  2389-2389  ImeBackDispatcher       com.example.shop_list                E  Ime callback not found. Ignoring unregisterReceivedCallback. callbackId: 249864850
+2025-02-05 19:26:33.080  2389-2389  ImeBackDispatcher       com.example.shop_list                E  Ime callback not found. Ignoring unregisterReceivedCallback. callbackId: 249864850
+
+Логи ошибки G9-1235
+2025-02-05 19:27:40.766  2389-2389  ImeBackDispatcher       com.example.shop_list                E  Ime callback not found. Ignoring unregisterReceivedCallback. callbackId: 249864850
+
+Логи ошибки G9-1247
+2025-02-05 19:40:42.129  7058-7077  FirebaseCrashlytics     com.example.shop_list                E  Settings request failed.
+2025-02-05 19:40:52.141  7058-7080  SessionConfigFetcher    com.example.shop_list                E  Error failing to fetch the remote configs: Unable to resolve host "firebase-settings.crashlytics.com": No address associated with hostname
+2025-02-05 19:40:52.313  7058-7118  SessionConfigFetcher    com.example.shop_list                E  Error failing to fetch the remote configs: Unable to resolve host "firebase-settings.crashlytics.com": No address associated with hostname
+
+Логи ошибки G9-1249
+2025-02-05 19:49:08.566  7556-7574  FirebaseCrashlytics     com.example.shop_list                E  Settings request failed.
+2025-02-05 19:49:10.470  7556-7556  AndroidRuntime          com.example.shop_list                E  FATAL EXCEPTION: main
+                                                                                                    Process: com.example.shop_list, PID: 7556
+                                                                                                    java.lang.IndexOutOfBoundsException: Index -1 out of bounds for length 9
+                                                                                                    	at jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+                                                                                                    	at jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+                                                                                                    	at jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+                                                                                                    	at java.util.Objects.checkIndex(Objects.java:359)
+                                                                                                    	at java.util.ArrayList.remove(ArrayList.java:558)
+                                                                                                    	at com.example.shop_list.ToDoAdapter.onBindViewHolder$lambda$4$lambda$1(MainActivity.kt:45)
+                                                                                                    	at com.example.shop_list.ToDoAdapter.$r8$lambda$ZaNV6FPXnEW_1EUtM9djc9dvQ48(Unknown Source:0)
+                                                                                                    	at com.example.shop_list.ToDoAdapter$$ExternalSyntheticLambda1.onClick(D8$$SyntheticClass:0)
+                                                                                                    	at android.view.View.performClick(View.java:8028)
+                                                                                                    	at com.google.android.material.button.MaterialButton.performClick(MaterialButton.java:1218)
+                                                                                                    	at android.view.View.performClickInternal(View.java:8005)
+                                                                                                    	at android.view.View.-$$Nest$mperformClickInternal(Unknown Source:0)
+                                                                                                    	at android.view.View$PerformClick.run(View.java:31229)
+                                                                                                    	at android.os.Handler.handleCallback(Handler.java:959)
+                                                                                                    	at android.os.Handler.dispatchMessage(Handler.java:100)
+                                                                                                    	at android.os.Looper.loopOnce(Looper.java:232)
+                                                                                                    	at android.os.Looper.loop(Looper.java:317)
+                                                                                                    	at android.app.ActivityThread.main(ActivityThread.java:8705)
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method)
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:580)
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:886)
+
+
